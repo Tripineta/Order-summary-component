@@ -37,6 +37,7 @@ body {
     background-image: url(./images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
     background-size: 100%;    
+    min-height: 100vh;
 }
 
 button {
@@ -78,6 +79,12 @@ button {
     font-weight: 900;
     height: 50px;
     box-shadow: 0px 8px 16px hsla(245, 75%, 52%, 0.25);
+    transition: 0.3s;
+}
+
+.card_content .primary:hover {
+    background-color: hsl(230, 50%, 55%);
+    transition: 0.3s;
 }
 
 .card_content .secondary {
@@ -87,6 +94,11 @@ button {
     font-size: 14px;
     font-weight: 900;
     height: 50px;
+}
+
+.card_content .secondary:hover {
+    color: hsl(0, 0%, 15%);
+    transition: 0.3s;
 }
 
 .card_plan {
@@ -100,7 +112,15 @@ button {
 
 .card_plan a {
     font-size: 14px;
+    font-weight: 700;
     color: var(--bright-blue);
+    transition: 0.3s;
+}
+
+.card_plan a:hover {
+    text-decoration: none;
+    color: hsl(230, 50%, 55%);
+    transition: 0.3s;
 }
 
 .card_plan_type {
@@ -147,7 +167,7 @@ main {
     justify-content: center;
     padding: 24px;
     width: auto;
-    min-height: 100vh;
+    min-height: 100%;
 }
 
 p {
