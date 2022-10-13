@@ -37,7 +37,6 @@ body {
     background-image: url(./images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
     background-size: 100%;    
-    min-height: 100vh;
 }
 
 button {
@@ -148,7 +147,7 @@ main {
     justify-content: center;
     padding: 24px;
     width: auto;
-    min-height: 100%;
+    min-height: 100vh;
 }
 
 p {
